@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+header{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .logo{
+    margin-left: 60px;
+    margin-right: 100px;
+    font-family: 'Coda Caption', sans-serif;
+    color: #1B0A42;
+}
+nav .logo span{
+    color: #4F56F1;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+ul li{
+    width: 45px;
+    height: 24px;
+    left: 272.76px;
+    top: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+ul li a{
+    text-decoration: none;
+    color: #1B0A42;
+}
+ul li a:hover{
+    color: #4F56F1;
+}
+header .account{
+    margin-right: 50px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+.account .btn{
+    margin-left: 20px;
+    width: 110px;
+    height: 50px;
+    left: 1412.26px;
+    top: 30px;
+    background: #4F56F1;
+    color:  #FFFFFF;
+    border-radius: 6px;
+    border: none;
+}
+main{
+    display: flex;
+    gap: 10px;
+}
+.title-box{
+    font-family: 'Ramaraja', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 170px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.title-box .info{
+    width: 538.08px;
+    height: 96px;
+    left: 200px;
+    top: 442.71px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}  
+.img-box{
+    display: flex;
+    align-items: center;
+    width: 653px;
+    height: 604px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.info-btn{
+    width: 152px;
+    height: 63.82px;
+    left: 232.21px;
+    margin-top: 22px;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+    background-color: #4F56F1;
+}
+.info-btn, .account, .btn:hover{
+    cursor: pointer;
+}
