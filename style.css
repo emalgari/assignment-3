@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*************** Background color **************/
 body{
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
 }
+/*************** Background end **************/
+
+/*************** Navigation bar **************/
 header{
     margin-top: 25px;
     display: flex;
@@ -67,6 +71,9 @@ header .account{
     border-radius: 6px;
     border: none;
 }
+/*************** Navigation bar end **************/
+
+/*************** Main section ********************/
 main{
     display: flex;
     gap: 10px;
@@ -122,3 +129,4 @@ main{
 .info-btn, .account, .btn:hover{
     cursor: pointer;
 }
+/*************** Main section end ********************/
