@@ -67,7 +67,7 @@ header .account a{
     margin-left: 20px;
     width: 110px;
     height: 50px;
-    left: 1412.26px;
+    left: 1412px;
     top: 30px;
     background: #4F56F1;
     color:  #FFFFFF;
@@ -91,10 +91,10 @@ main{
     margin-bottom: 25px;
 }
 .title-box .info{
-    width: 538.08px;
+    width: 538px;
     height: 96px;
     left: 200px;
-    top: 442.71px;
+    top: 442px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -114,7 +114,7 @@ main{
 }
 .info-btn{
     width: 152px;
-    height: 63.82px;
+    height: 64px;
     left: 232.21px;
     margin-top: 22px;
     border-radius: 6px;
